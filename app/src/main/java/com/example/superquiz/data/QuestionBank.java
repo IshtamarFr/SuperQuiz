@@ -37,7 +37,7 @@ public class QuestionBank {
                         3
                 ),
                 new Question(
-                        "Who painteddid the Mona Lisa paint?",
+                        "Who did the Mona Lisa paint?",
                         Arrays.asList(
                                 "Michelangelo",
                                 "Leonardo Da Vinci",

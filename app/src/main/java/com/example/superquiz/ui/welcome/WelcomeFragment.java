@@ -1,7 +1,5 @@
-package com.example.superquiz;
+package com.example.superquiz.ui.welcome;
 
-import android.media.AudioManager;
-import android.media.ToneGenerator;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -14,7 +12,9 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import com.example.superquiz.R;
 import com.example.superquiz.databinding.FragmentWelcomeBinding;
+import com.example.superquiz.ui.quiz.QuizFragment;
 
 public class WelcomeFragment extends Fragment {
     private FragmentWelcomeBinding binding;

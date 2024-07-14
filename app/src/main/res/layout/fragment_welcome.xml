@@ -6,7 +6,7 @@
     android:background="@color/light_blue_600"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".WelcomeFragment">
+    tools:context=".ui.welcome.WelcomeFragment">
 
     <TextView
         android:id="@+id/welcomeText"

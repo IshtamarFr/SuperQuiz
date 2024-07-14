@@ -1,4 +1,4 @@
-package com.example.superquiz;
+package com.example.superquiz.ui.quiz;
 
 import android.os.Bundle;
 
@@ -8,12 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.superquiz.R;
+
 public class QuizFragment extends Fragment {
 
 
     public static QuizFragment newInstance() {
-        QuizFragment fragment = new QuizFragment();
-        return fragment;
+        return new QuizFragment();
     }
 
     @Override
